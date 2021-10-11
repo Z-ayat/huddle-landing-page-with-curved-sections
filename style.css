@@ -12,10 +12,14 @@
     --Very-Pale-Blue: hsl(207, 100%, 98%);
 }
 
+a {
+    text-decoration: none;
+}
+
 .btn {
     color: var(--Pink);
     border-color: var(--Pink);
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
 }
 
 .hud-btn {
@@ -30,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 700;
     color: var(--Very-Dark-Cyan);
 }
@@ -40,5 +44,133 @@ p {
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
+}
+
+.footer-top-bg {
+    margin-bottom: -3px;
+    background-image: url(images/bg-footer-top-mobile.svg);
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer {
+    color: var(--Very-Pale-Blue);
+    background-color: var(--Very-Dark-Cyan);
+}
+
+footer p {
+    color: var(--Very-Pale-Blue);
+}
+
+footer input {
+    outline: none;
+    border: none;
+}
+
+footer button {
+    width: 160px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.social-container {
+    width: 115px;
+}
+
+.social-item {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.main-logo {
+    width: 100px;
+}
+
+
+/* .img-sudo {
+    position: relative;
+}
+
+.sudo-1::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 25px;
+    background-image: url(images/icon-communities.svg);
+    top: -20px;
+    left: 110px;
+    background-size: 100%;
+} */
+
+.sudo {
+    position: relative;
+    left: 135px;
+    top: -10px;
+}
+
+@media (min-width: 767px) {
+    .main-logo {
+        width: 245px;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+    .w-lg-1 {
+        width: 595px;
+    }
+    .w-lg-2 {
+        width: 490px;
+    }
+    .w-lg-3 {
+        width: 300px;
+    }
+    .w-lg-4 {
+        width: 550px;
+    }
+    .header-photo {
+        width: 1020px;
+    }
+    .btn-lg-1 {
+        width: 400px;
+        text-align: center;
+    }
+    .fs-lg-5 {
+        font-size: 4.5rem;
+    }
+    .sudo {
+        left: 110px;
+    }
+    section.testimoials img {
+        width: 525px;
+    }
+    .footer-top-bg {
+        background-image: url(images/bg-footer-top-desktop.svg);
+        background-position: bottom;
+        height: 50vh;
+    }
+    .form-sm {
+        flex-direction: row !important;
+    }
+    footer .lh-base {
+        width: 350px;
+        font-size: .9rem;
+    }
+    .form-sm input {
+        margin: 0 !important;
+        width: 320px !important;
+    }
+    .form-sm button {
+        width: 160px;
+        height: 50px;
+        margin-left: 3rem !important;
+    }
 }
