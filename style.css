@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+.btn {
+    color: var(--Pink);
+    border-color: var(--Pink);
+    font-family: 'Open Sans';
+}
+
+.hud-btn {
+    background-color: var(--Pink);
+    color: var(--Very-Pale-Blue);
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: var(--Very-Dark-Cyan);
+}
+
+p {
+    color: var(--Very-Dark-Cyan);
+}
+
+body {
+    font-family: 'Open Sans';
+}
